@@ -1,3 +1,9 @@
+/*************************************
+programa en C que sobre ifs imbrincats
+diu si un any és de traspàs o no
+Xavi Blanes curs 24/25
+*************************************/
+
 #include <stdio.h>
 int main(){
 int any;
