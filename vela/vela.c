@@ -1,3 +1,8 @@
+/***********************************
+programa en C que pinta con una vela
+Xavi Blanes curs 24/25
+***********************************/
+
 #include <stdio.h>
 int main(){
   int i, j;
