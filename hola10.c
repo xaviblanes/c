@@ -1,3 +1,9 @@
+/***********************************
+*** programa en C que implementa ***
+*** la repetició determinada     ***
+*** Xavi Blanes curs:24/25       ***
+***********************************/
+
 #include <stdio.h>
 int main(){
   int i;
