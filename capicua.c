@@ -1,8 +1,8 @@
-/********************************************
-*** programa en C que avalua si un número *** 
-*** introduït per teclat és capicua       ***
-*** Xavi Blanes curs:24/25                ***
-********************************************/
+/************************************
+programa en C que avalua si un número 
+introduït per teclat és capicua   
+Xavi Blanes curs:24/25              
+*************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
