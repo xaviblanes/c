@@ -1,8 +1,8 @@
-/***********************************
-*** programa en C que implementa ***
-*** el pin sense repetició       ***
-*** Xavi Blanes curs:24/25       ***
-***********************************/
+/***************************
+programa en C que implementa
+el pin sense repetició      
+Xavi Blanes curs:24/25   
+***************************/
 #include <stdio.h>
 void main(){
 int resposta;
