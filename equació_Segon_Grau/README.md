@@ -5,19 +5,16 @@ Una equació de segon grau, anomenada també equació quadràtica, és una equac
 ax²+bx+c=0
 
 on a ≠ 0.
+![fórmula](/images/220px-Equacio_quadratica.svg.png)
 
-Les equacions de segon grau es resolen mitjançant la fórmula:
+Les equacions de segon grau es resolen mitjançant la fórmula de la imatge anterior,que proporciona les dues solucions complexes que té, d'acord amb el teorema fonamental de l'àlgebra.
 
-    x 1 , 2 = − b ± b 2 − 4 a c 2 a {\displaystyle x_{1,2}={\frac {-b\pm {\sqrt {b^{2}-4ac}}}{2a}}},
+Per comprovar si aquestes solucions són també reals, es pot fer observant el discriminant de l'equació, que correspon al terme dins l'arrel quadrada.
 
-que proporciona les dues solucions complexes que té, d'acord amb el teorema fonamental de l'àlgebra.
+Si b²−4ac > 0 Les dues solucions són reals.
 
-Per comprovar si aquestes solucions són també reals, es pot fer observant el discriminant de l'equació, que correspon al terme dins l'arrel quadrada: b 2 − 4 a c {\displaystyle b^{2}-4ac}.
+Si b²−4ac = 0 L'equació té una sola solució real (doble)
 
-Si:[2]
+Si b²−4ac < 0 No existeixen solucions en els reals.
 
-    b 2 − 4 a c > 0   {\displaystyle b^{2}-4ac>0\ } Les dues solucions són reals.
-
-    b 2 − 4 a c = 0   {\displaystyle b^{2}-4ac=0\ } L'equació té una sola solució real (doble), que ve donada per x = − b 2 a   {\displaystyle x={\frac {-b}{2a}}\ }.
-
-    b 2 − 4 a c < 0   {\displaystyle b^{2}-4ac<0\ } No existeixen solucions en els reals.
+[Viquipèdia](https://ca.wikipedia.org/wiki/Equaci%C3%B3_de_segon_grau)
