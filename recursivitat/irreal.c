@@ -14,7 +14,8 @@ void main(){
     printf("Introduix el número: ");
     scanf("%d", &n);
     if(irreal(n)) printf("\nIrreal\n");
-       else printf("\nNo irreal\n");
+    else printf("\nNo irreal\n");
+    return;
 }
 
 int irreal(int n){
