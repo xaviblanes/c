@@ -5,10 +5,22 @@
 
 #include <stdio.h>
 
-int sumar(int a, int b);
-int restar(int a, int b);
-int multiplicar(int a, int b);
-int dividir(int a, int b);
+int sumar(int a, int b)
+{
+    return a + b;
+}
+int restar(int a, int b)
+{
+    return a - b;
+}
+int multiplicar(int a, int b)
+{
+    return a * b;
+}
+int dividir(int a, int b)
+{
+        return a / b;
+}
 
 void main(){
     int m, n, opcio;
@@ -29,21 +41,4 @@ void main(){
     if(opcio == 4) printf("La divisió és: %d\n", dividir(m,n));
     
     return;
-}
-
-int sumar(int a, int b)
-{
-    return a + b;
-}
-int restar(int a, int b)
-{
-    return a - b;
-}
-int multiplicar(int a, int b)
-{
-    return a * b;
-}
-int dividir(int a, int b)
-{
-        return a / b;
 }
