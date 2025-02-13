@@ -1,5 +1,10 @@
-#include <stdio.h>
+/************************************
+programa en C que que implementa 
+funcions bàsiques sobre arrays
+Xavi Blanes curs:24/25              
+*************************************/
 
+#include <stdio.h>
 
 void llegirArray(int a[])
 {
