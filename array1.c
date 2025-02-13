@@ -1,24 +1,16 @@
 #include <stdio.h>
 
-int main() {
 
-  int i;  
-  int myNumbers[100];
-  llegirArray(myNumbers);
-  escriuArray(myNumbers);
-  return;
-}
-
-void llegirArray(int *a[])
+void llegirArray(int a[])
 {
   int i, n;
   i=0;
   do{
       printf("Introduix un enter (-127 per a acabar): \n");
       scanf("%d",&n);
-      a[i]=n;
+      a[i++]=n;
   }while(n!=-127);
-
+return;
 }
 
 void escriuArray(int a[])
@@ -29,4 +21,15 @@ void escriuArray(int a[])
   {
     printf("%d, ",a[i++]);
   }
+  printf("\n");
+return;
+}
+
+int main() {
+
+  int i;  
+  int myNumbers[100]={1,2,3,-127};
+  llegirArray(myNumbers);
+  escriuArray(myNumbers);
+  return 0;
 }
