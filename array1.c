@@ -1,7 +1,7 @@
 /************************************
-programa en C que que implementa 
+programa en C que que implementa
 funcions bàsiques sobre arrays
-Xavi Blanes curs:24/25              
+Xavi Blanes curs:24/25
 *************************************/
 
 #include <stdio.h>
@@ -30,11 +30,19 @@ void escriuArray(int a[])
 return;
 }
 
-int main() {
+int llargArray(int a[])
+{
+  int i;
+  i=0;
+  while(a[i]!=-127)
+    i++;
+return i;
+}
 
-  int i;  
-  int myNumbers[100]={1,2,3,-127};
+int main() {
+  int myNumbers[100];
   llegirArray(myNumbers);
   escriuArray(myNumbers);
+  printf("La longitud és: %d\n",llargArray(myNumbers));
   return 0;
 }
