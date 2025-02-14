@@ -1,11 +1,13 @@
 /************************************
-programa en C que que implementa
-funcions bàsiques sobre arrays
-Xavi Blanes curs:24/25
+    programa en C que que implementa
+    funcions bàsiques sobre arrays
+    Xavi Blanes curs:24/25
 *************************************/
 
 #include <stdio.h>
 
+
+/* funció que llig un array d'enters de teclat */
 void llegirArray(int a[])
 {
   int i, n;
@@ -18,6 +20,7 @@ void llegirArray(int a[])
 return;
 }
 
+/* funció que escriu un array d'enters per consola*/
 void escriuArray(int a[])
 {
   int i;
@@ -30,6 +33,7 @@ void escriuArray(int a[])
 return;
 }
 
+/* funció que calcula la llargada d'un array d'enters */
 int llargArray(int a[])
 {
   int i;
@@ -39,10 +43,23 @@ int llargArray(int a[])
 return i;
 }
 
+/* funció que calcula el màxim d'un array d'enters */
+int maxArray(int a[])
+{
+  int i, maxProvisional;
+  i=1;
+  maxProvisional=a[0];
+  while(a[i]!=-127)
+    if(a[i]>maxProvisional) maxProvisional= a[i++];
+return maxProvisional;
+}
+
+
 int main() {
   int myNumbers[100];
   llegirArray(myNumbers);
   escriuArray(myNumbers);
   printf("La longitud és: %d\n",llargArray(myNumbers));
+  printf("El màxim és: %d\n",maxArray(myNumbers));
   return 0;
 }
