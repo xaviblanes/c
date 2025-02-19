@@ -43,18 +43,6 @@ int llargArray(int a[])
 return i;
 }
 
-/* funció que calcula el màxim d'un array d'enters */
-int maxArray(int a[])
-{
-  int i, maxProvisional;
-  i=1;
-  maxProvisional=a[0];
-  while(a[i]!=-127)
-    if(a[i]>maxProvisional) maxProvisional= a[i++];
-return maxProvisional;
-}
-
-
 int main() {
   int myNumbers[100];
   llegirArray(myNumbers);
