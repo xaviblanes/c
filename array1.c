@@ -43,10 +43,25 @@ int llargArray(int a[])
 return i;
 }
 
+/* funció que calcula el màxim d'un array d'enters */
+int maxArray(int a[])
+{
+  int maxProv, i;
+  maxProv=a[0];
+  i=1;
+  while(a[i]!=-127)
+  {
+    if(a[i]>maxProv) maxProv=a[i];
+    i++;
+  }
+return maxProv;
+}
+
 int main() {
   int myNumbers[100];
   llegirArray(myNumbers);
   escriuArray(myNumbers);
   printf("La longitud és: %d\n",llargArray(myNumbers));
+  printf("El màxim és: %d\n",maxArray(myNumbers));
   return 0;
 }
