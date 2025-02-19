@@ -48,6 +48,5 @@ int main() {
   llegirArray(myNumbers);
   escriuArray(myNumbers);
   printf("La longitud és: %d\n",llargArray(myNumbers));
-  printf("El màxim és: %d\n",maxArray(myNumbers));
   return 0;
 }
